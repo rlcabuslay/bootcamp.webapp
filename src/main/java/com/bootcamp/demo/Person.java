@@ -4,6 +4,7 @@ public class Person {
     private String firstName;
     private String lastName;
     private String address;
+    private String email;
     
     public Person(String firstName, String lastName, String address) {
         this.firstName = firstName;
@@ -26,8 +27,17 @@ public class Person {
     public String getAddress() {
         return address;
     }
+    
     public void setAddress(String address) {
         this.address = address;
+    }
+    
+    public void setEmail(String email) {
+        this.email = email;
+    }
+    
+    public String getEmail() {
+        return email;
     }
     
 }
