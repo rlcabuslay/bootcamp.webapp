@@ -3,10 +3,12 @@ package com.bootcamp.demo;
 public class Person {
     private String firstName;
     private String lastName;
+    private String address;
     
-    public Person(String firstName, String lastName) {
+    public Person(String firstName, String lastName, String address) {
         this.firstName = firstName;
         this.lastName = lastName;
+        this.address = address;
     }
     public String getFirstName() {
         return firstName;
@@ -19,6 +21,13 @@ public class Person {
     }
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+    
+    public String getAddress() {
+        return address;
+    }
+    public void setAddress(String address) {
+        this.address = address;
     }
     
 }
